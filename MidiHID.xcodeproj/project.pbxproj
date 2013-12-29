@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E20A2D500F8C605E0004D8B8 /* Warning.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E20A2D4F0F8C605E0004D8B8 /* Warning.tiff */; };
+		E24D3E760F86CC940048853A /* Success.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E24D3E750F86CC940048853A /* Success.tiff */; };
+		E25706060E4FA8B9007592EC /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705CF0E4FA8B9007592EC /* lapi.c */; };
+		E25706070E4FA8B9007592EC /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705D10E4FA8B9007592EC /* lauxlib.c */; };
+		E25706080E4FA8B9007592EC /* lbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705D30E4FA8B9007592EC /* lbaselib.c */; };
+		E25706090E4FA8B9007592EC /* lcode.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705D40E4FA8B9007592EC /* lcode.c */; };
+		E257060A0E4FA8B9007592EC /* ldblib.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705D60E4FA8B9007592EC /* ldblib.c */; };
+		E257060B0E4FA8B9007592EC /* ldebug.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705D70E4FA8B9007592EC /* ldebug.c */; };
+		E257060C0E4FA8B9007592EC /* ldo.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705D90E4FA8B9007592EC /* ldo.c */; };
+		E257060D0E4FA8B9007592EC /* ldump.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705DB0E4FA8B9007592EC /* ldump.c */; };
+		E257060E0E4FA8B9007592EC /* lfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705DC0E4FA8B9007592EC /* lfunc.c */; };
+		E257060F0E4FA8B9007592EC /* lgc.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705DE0E4FA8B9007592EC /* lgc.c */; };
+		E25706100E4FA8B9007592EC /* linit.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705E00E4FA8B9007592EC /* linit.c */; };
+		E25706110E4FA8B9007592EC /* liolib.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705E10E4FA8B9007592EC /* liolib.c */; };
+		E25706120E4FA8B9007592EC /* llex.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705E20E4FA8B9007592EC /* llex.c */; };
+		E25706130E4FA8B9007592EC /* lmathlib.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705E50E4FA8B9007592EC /* lmathlib.c */; };
+		E25706140E4FA8B9007592EC /* lmem.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705E60E4FA8B9007592EC /* lmem.c */; };
+		E25706150E4FA8B9007592EC /* loadlib.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705E80E4FA8B9007592EC /* loadlib.c */; };
+		E25706160E4FA8B9007592EC /* lobject.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705E90E4FA8B9007592EC /* lobject.c */; };
+		E25706170E4FA8B9007592EC /* lopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705EB0E4FA8B9007592EC /* lopcodes.c */; };
+		E25706180E4FA8B9007592EC /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705ED0E4FA8B9007592EC /* loslib.c */; };
+		E25706190E4FA8B9007592EC /* lparser.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705EE0E4FA8B9007592EC /* lparser.c */; };
+		E257061A0E4FA8B9007592EC /* lstate.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705F00E4FA8B9007592EC /* lstate.c */; };
+		E257061B0E4FA8B9007592EC /* lstring.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705F20E4FA8B9007592EC /* lstring.c */; };
+		E257061C0E4FA8B9007592EC /* lstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705F40E4FA8B9007592EC /* lstrlib.c */; };
+		E257061D0E4FA8B9007592EC /* ltable.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705F50E4FA8B9007592EC /* ltable.c */; };
+		E257061E0E4FA8B9007592EC /* ltablib.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705F70E4FA8B9007592EC /* ltablib.c */; };
+		E257061F0E4FA8B9007592EC /* ltm.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705F80E4FA8B9007592EC /* ltm.c */; };
+		E25706220E4FA8B9007592EC /* lundump.c in Sources */ = {isa = PBXBuildFile; fileRef = E25705FF0E4FA8B9007592EC /* lundump.c */; };
+		E25706230E4FA8B9007592EC /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = E25706010E4FA8B9007592EC /* lvm.c */; };
+		E25706240E4FA8B9007592EC /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = E25706030E4FA8B9007592EC /* lzio.c */; };
+		E25706250E4FA8B9007592EC /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = E25706050E4FA8B9007592EC /* print.c */; };
+		E270D8AD0F7CE81A00396646 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = E270D8AC0F7CE81A00396646 /* Icon.icns */; };
+		E28AE9EE0E91B73000379541 /* SourceTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E28AE9EC0E91B73000379541 /* SourceTextView.m */; };
+		E28AE9FA0E91B7C000379541 /* SourceTextViewKeywords-Lua.plist in Resources */ = {isa = PBXBuildFile; fileRef = E28AE9F80E91B7C000379541 /* SourceTextViewKeywords-Lua.plist */; };
+		E28AEAF60E91CA9D00379541 /* Error.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E28AEAF50E91CA9D00379541 /* Error.tiff */; };
+		E29E97490F816111003AACB9 /* ReleaseNotes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E29E97470F816111003AACB9 /* ReleaseNotes.rtf */; };
+		E2B8B4E90E671D7900E1C9D1 /* Dot-Green.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E2B8B4E30E671D7900E1C9D1 /* Dot-Green.tiff */; };
+		E2B8B4EA0E671D7900E1C9D1 /* Dot-Orange.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E2B8B4E40E671D7900E1C9D1 /* Dot-Orange.tiff */; };
+		E2B8B4EB0E671D7900E1C9D1 /* Dot-Red.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E2B8B4E50E671D7900E1C9D1 /* Dot-Red.tiff */; };
+		E2B8B52E0E671FBF00E1C9D1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2B8B5280E671FBF00E1C9D1 /* MainMenu.xib */; };
+		E2B8B52F0E671FBF00E1C9D1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2B8B52A0E671FBF00E1C9D1 /* Localizable.strings */; };
+		E2B8B5300E671FBF00E1C9D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2B8B52C0E671FBF00E1C9D1 /* InfoPlist.strings */; };
+		E2BFF8430E8DBC0200086361 /* HIDController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BFF8380E8DBC0200086361 /* HIDController.m */; };
+		E2BFF8440E8DBC0200086361 /* OSCController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BFF8390E8DBC0200086361 /* OSCController.m */; };
+		E2BFF8450E8DBC0200086361 /* UsageTables.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2BFF83B0E8DBC0200086361 /* UsageTables.plist */; };
+		E2BFF8460E8DBC0200086361 /* MidiController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BFF83E0E8DBC0200086361 /* MidiController.m */; };
+		E2BFF85B0E8DBC4500086361 /* MiniUDPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BFF8590E8DBC4500086361 /* MiniUDPSocket.m */; };
+		E2CE57700F8BCCCC00081BB0 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2CE576E0F8BCCCC00081BB0 /* Configuration.plist */; };
+		E2CF883A10A05D2F00AAC44E /* BridgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF883610A05D2F00AAC44E /* BridgeController.m */; };
+		E2CF883B10A05D2F00AAC44E /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF883710A05D2F00AAC44E /* AppController.m */; };
+		E2CF883C10A05D2F00AAC44E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF883910A05D2F00AAC44E /* main.m */; };
+		E2CF887810A05EBB00AAC44E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CF872B10A05CCA00AAC44E /* Cocoa.framework */; };
+		E2CF887A10A05EC200AAC44E /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26A6D920E4F937E000390F1 /* CoreMIDI.framework */; };
+		E2CF888010A05ED100AAC44E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25706E70E4FE362007592EC /* IOKit.framework */; };
+		E2CF894B10A0609400AAC44E /* MidiHIDController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CF894910A0609400AAC44E /* MidiHIDController.m */; };
+		E2E8EE100F82AF5000741A6B /* Dot-Gray.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E2E8EE0F0F82AF5000741A6B /* Dot-Gray.tiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D1107320486CEB800E47090 /* MidiHID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidiHID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20A2D4F0F8C605E0004D8B8 /* Warning.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Warning.tiff; sourceTree = "<group>"; };
+		E24D3E750F86CC940048853A /* Success.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Success.tiff; sourceTree = "<group>"; };
+		E25705CF0E4FA8B9007592EC /* lapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lapi.c; sourceTree = "<group>"; };
+		E25705D00E4FA8B9007592EC /* lapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lapi.h; sourceTree = "<group>"; };
+		E25705D10E4FA8B9007592EC /* lauxlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lauxlib.c; sourceTree = "<group>"; };
+		E25705D20E4FA8B9007592EC /* lauxlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lauxlib.h; sourceTree = "<group>"; };
+		E25705D30E4FA8B9007592EC /* lbaselib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lbaselib.c; sourceTree = "<group>"; };
+		E25705D40E4FA8B9007592EC /* lcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcode.c; sourceTree = "<group>"; };
+		E25705D50E4FA8B9007592EC /* lcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcode.h; sourceTree = "<group>"; };
+		E25705D60E4FA8B9007592EC /* ldblib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldblib.c; sourceTree = "<group>"; };
+		E25705D70E4FA8B9007592EC /* ldebug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldebug.c; sourceTree = "<group>"; };
+		E25705D80E4FA8B9007592EC /* ldebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldebug.h; sourceTree = "<group>"; };
+		E25705D90E4FA8B9007592EC /* ldo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldo.c; sourceTree = "<group>"; };
+		E25705DA0E4FA8B9007592EC /* ldo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldo.h; sourceTree = "<group>"; };
+		E25705DB0E4FA8B9007592EC /* ldump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldump.c; sourceTree = "<group>"; };
+		E25705DC0E4FA8B9007592EC /* lfunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfunc.c; sourceTree = "<group>"; };
+		E25705DD0E4FA8B9007592EC /* lfunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfunc.h; sourceTree = "<group>"; };
+		E25705DE0E4FA8B9007592EC /* lgc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lgc.c; sourceTree = "<group>"; };
+		E25705DF0E4FA8B9007592EC /* lgc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lgc.h; sourceTree = "<group>"; };
+		E25705E00E4FA8B9007592EC /* linit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linit.c; sourceTree = "<group>"; };
+		E25705E10E4FA8B9007592EC /* liolib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = liolib.c; sourceTree = "<group>"; };
+		E25705E20E4FA8B9007592EC /* llex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = llex.c; sourceTree = "<group>"; };
+		E25705E30E4FA8B9007592EC /* llex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llex.h; sourceTree = "<group>"; };
+		E25705E40E4FA8B9007592EC /* llimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llimits.h; sourceTree = "<group>"; };
+		E25705E50E4FA8B9007592EC /* lmathlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmathlib.c; sourceTree = "<group>"; };
+		E25705E60E4FA8B9007592EC /* lmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmem.c; sourceTree = "<group>"; };
+		E25705E70E4FA8B9007592EC /* lmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lmem.h; sourceTree = "<group>"; };
+		E25705E80E4FA8B9007592EC /* loadlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loadlib.c; sourceTree = "<group>"; };
+		E25705E90E4FA8B9007592EC /* lobject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lobject.c; sourceTree = "<group>"; };
+		E25705EA0E4FA8B9007592EC /* lobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lobject.h; sourceTree = "<group>"; };
+		E25705EB0E4FA8B9007592EC /* lopcodes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lopcodes.c; sourceTree = "<group>"; };
+		E25705EC0E4FA8B9007592EC /* lopcodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lopcodes.h; sourceTree = "<group>"; };
+		E25705ED0E4FA8B9007592EC /* loslib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loslib.c; sourceTree = "<group>"; };
+		E25705EE0E4FA8B9007592EC /* lparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lparser.c; sourceTree = "<group>"; };
+		E25705EF0E4FA8B9007592EC /* lparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lparser.h; sourceTree = "<group>"; };
+		E25705F00E4FA8B9007592EC /* lstate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstate.c; sourceTree = "<group>"; };
+		E25705F10E4FA8B9007592EC /* lstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstate.h; sourceTree = "<group>"; };
+		E25705F20E4FA8B9007592EC /* lstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstring.c; sourceTree = "<group>"; };
+		E25705F30E4FA8B9007592EC /* lstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstring.h; sourceTree = "<group>"; };
+		E25705F40E4FA8B9007592EC /* lstrlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstrlib.c; sourceTree = "<group>"; };
+		E25705F50E4FA8B9007592EC /* ltable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltable.c; sourceTree = "<group>"; };
+		E25705F60E4FA8B9007592EC /* ltable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltable.h; sourceTree = "<group>"; };
+		E25705F70E4FA8B9007592EC /* ltablib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltablib.c; sourceTree = "<group>"; };
+		E25705F80E4FA8B9007592EC /* ltm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltm.c; sourceTree = "<group>"; };
+		E25705F90E4FA8B9007592EC /* ltm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltm.h; sourceTree = "<group>"; };
+		E25705FB0E4FA8B9007592EC /* lua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.h; sourceTree = "<group>"; };
+		E25705FD0E4FA8B9007592EC /* luaconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luaconf.h; sourceTree = "<group>"; };
+		E25705FE0E4FA8B9007592EC /* lualib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lualib.h; sourceTree = "<group>"; };
+		E25705FF0E4FA8B9007592EC /* lundump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lundump.c; sourceTree = "<group>"; };
+		E25706000E4FA8B9007592EC /* lundump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lundump.h; sourceTree = "<group>"; };
+		E25706010E4FA8B9007592EC /* lvm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lvm.c; sourceTree = "<group>"; };
+		E25706020E4FA8B9007592EC /* lvm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvm.h; sourceTree = "<group>"; };
+		E25706030E4FA8B9007592EC /* lzio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lzio.c; sourceTree = "<group>"; };
+		E25706040E4FA8B9007592EC /* lzio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzio.h; sourceTree = "<group>"; };
+		E25706050E4FA8B9007592EC /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
+		E25706E70E4FE362007592EC /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		E26A6D920E4F937E000390F1 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		E270D8AC0F7CE81A00396646 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		E28AE9EB0E91B73000379541 /* SourceTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceTextView.h; sourceTree = "<group>"; };
+		E28AE9EC0E91B73000379541 /* SourceTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceTextView.m; sourceTree = "<group>"; };
+		E28AE9F80E91B7C000379541 /* SourceTextViewKeywords-Lua.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SourceTextViewKeywords-Lua.plist"; sourceTree = "<group>"; };
+		E28AEAF50E91CA9D00379541 /* Error.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Error.tiff; sourceTree = "<group>"; };
+		E29E97480F816111003AACB9 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/ReleaseNotes.rtf; sourceTree = "<group>"; };
+		E2B8B4E30E671D7900E1C9D1 /* Dot-Green.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Dot-Green.tiff"; sourceTree = "<group>"; };
+		E2B8B4E40E671D7900E1C9D1 /* Dot-Orange.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Dot-Orange.tiff"; sourceTree = "<group>"; };
+		E2B8B4E50E671D7900E1C9D1 /* Dot-Red.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Dot-Red.tiff"; sourceTree = "<group>"; };
+		E2B8B5290E671FBF00E1C9D1 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E2B8B52B0E671FBF00E1C9D1 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E2B8B52D0E671FBF00E1C9D1 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2BC61C70EFDEF7E00AC2207 /* Apple Remote.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Apple Remote.xml"; sourceTree = "<group>"; };
+		E2BC61C90EFDEF7E00AC2207 /* Apple Keyboard.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Apple Keyboard.xml"; sourceTree = "<group>"; };
+		E2BC61CD0EFDEF7E00AC2207 /* Apple Mouse.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Apple Mouse.xml"; sourceTree = "<group>"; };
+		E2BFF8380E8DBC0200086361 /* HIDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDController.m; sourceTree = "<group>"; };
+		E2BFF8390E8DBC0200086361 /* OSCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCController.m; sourceTree = "<group>"; };
+		E2BFF83A0E8DBC0200086361 /* HIDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDController.h; sourceTree = "<group>"; };
+		E2BFF83B0E8DBC0200086361 /* UsageTables.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UsageTables.plist; sourceTree = "<group>"; };
+		E2BFF83C0E8DBC0200086361 /* MidiController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiController.h; sourceTree = "<group>"; };
+		E2BFF83D0E8DBC0200086361 /* OSCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCController.h; sourceTree = "<group>"; };
+		E2BFF83E0E8DBC0200086361 /* MidiController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiController.m; sourceTree = "<group>"; };
+		E2BFF8580E8DBC4500086361 /* MiniUDPSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniUDPSocket.h; sourceTree = "<group>"; };
+		E2BFF8590E8DBC4500086361 /* MiniUDPSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniUDPSocket.m; sourceTree = "<group>"; };
+		E2CE576F0F8BCCCC00081BB0 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/Configuration.plist; sourceTree = "<group>"; };
+		E2CF872B10A05CCA00AAC44E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E2CF883410A05D2F00AAC44E /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		E2CF883510A05D2F00AAC44E /* BridgeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeController.h; sourceTree = "<group>"; };
+		E2CF883610A05D2F00AAC44E /* BridgeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeController.m; sourceTree = "<group>"; };
+		E2CF883710A05D2F00AAC44E /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		E2CF883910A05D2F00AAC44E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2CF884C10A05D4E00AAC44E /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		E2CF88CC10A05EF400AAC44E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2CF894910A0609400AAC44E /* MidiHIDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiHIDController.m; sourceTree = "<group>"; };
+		E2CF894A10A0609400AAC44E /* MidiHIDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiHIDController.h; sourceTree = "<group>"; };
+		E2E8EE0F0F82AF5000741A6B /* Dot-Gray.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Dot-Gray.tiff"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CF887810A05EBB00AAC44E /* Cocoa.framework in Frameworks */,
+				E2CF887A10A05EC200AAC44E /* CoreMIDI.framework in Frameworks */,
+				E2CF888010A05ED100AAC44E /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF88CC10A05EF400AAC44E /* Info.plist */,
+				E270D8AC0F7CE81A00396646 /* Icon.icns */,
+				E2E8EE0F0F82AF5000741A6B /* Dot-Gray.tiff */,
+				E2B8B4E30E671D7900E1C9D1 /* Dot-Green.tiff */,
+				E2B8B4E40E671D7900E1C9D1 /* Dot-Orange.tiff */,
+				E2B8B4E50E671D7900E1C9D1 /* Dot-Red.tiff */,
+				E28AEAF50E91CA9D00379541 /* Error.tiff */,
+				E24D3E750F86CC940048853A /* Success.tiff */,
+				E20A2D4F0F8C605E0004D8B8 /* Warning.tiff */,
+				E2CE576E0F8BCCCC00081BB0 /* Configuration.plist */,
+				E2B8B5280E671FBF00E1C9D1 /* MainMenu.xib */,
+				E29E97470F816111003AACB9 /* ReleaseNotes.rtf */,
+				E2B8B52C0E671FBF00E1C9D1 /* InfoPlist.strings */,
+				E2B8B52A0E671FBF00E1C9D1 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* MidiHID.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MidiHID */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF884C10A05D4E00AAC44E /* Prefix.pch */,
+				E2B8B4BA0E671AAE00E1C9D1 /* Configurations */,
+				29B97315FDCFA39411CA2CEA /* Source */,
+				080E96DDFE201D6D7F000001 /* Resources */,
+				E2BFF8350E8DBBE400086361 /* PolKit */,
+				E25705CE0E4FA8B9007592EC /* lua-5.1.4 */,
+				29B97323FDCFA39411CA2CEA /* Frameworks and Libraries */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = MidiHID;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF883410A05D2F00AAC44E /* AppController.h */,
+				E2CF883710A05D2F00AAC44E /* AppController.m */,
+				E2CF894A10A0609400AAC44E /* MidiHIDController.h */,
+				E2CF894910A0609400AAC44E /* MidiHIDController.m */,
+				E2CF883510A05D2F00AAC44E /* BridgeController.h */,
+				E2CF883610A05D2F00AAC44E /* BridgeController.m */,
+				E2CF883910A05D2F00AAC44E /* main.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF872B10A05CCA00AAC44E /* Cocoa.framework */,
+				E26A6D920E4F937E000390F1 /* CoreMIDI.framework */,
+				E25706E70E4FE362007592EC /* IOKit.framework */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		E25705CE0E4FA8B9007592EC /* lua-5.1.4 */ = {
+			isa = PBXGroup;
+			children = (
+				E25705CF0E4FA8B9007592EC /* lapi.c */,
+				E25705D00E4FA8B9007592EC /* lapi.h */,
+				E25705D10E4FA8B9007592EC /* lauxlib.c */,
+				E25705D20E4FA8B9007592EC /* lauxlib.h */,
+				E25705D30E4FA8B9007592EC /* lbaselib.c */,
+				E25705D40E4FA8B9007592EC /* lcode.c */,
+				E25705D50E4FA8B9007592EC /* lcode.h */,
+				E25705D60E4FA8B9007592EC /* ldblib.c */,
+				E25705D70E4FA8B9007592EC /* ldebug.c */,
+				E25705D80E4FA8B9007592EC /* ldebug.h */,
+				E25705D90E4FA8B9007592EC /* ldo.c */,
+				E25705DA0E4FA8B9007592EC /* ldo.h */,
+				E25705DB0E4FA8B9007592EC /* ldump.c */,
+				E25705DC0E4FA8B9007592EC /* lfunc.c */,
+				E25705DD0E4FA8B9007592EC /* lfunc.h */,
+				E25705DE0E4FA8B9007592EC /* lgc.c */,
+				E25705DF0E4FA8B9007592EC /* lgc.h */,
+				E25705E00E4FA8B9007592EC /* linit.c */,
+				E25705E10E4FA8B9007592EC /* liolib.c */,
+				E25705E20E4FA8B9007592EC /* llex.c */,
+				E25705E30E4FA8B9007592EC /* llex.h */,
+				E25705E40E4FA8B9007592EC /* llimits.h */,
+				E25705E50E4FA8B9007592EC /* lmathlib.c */,
+				E25705E60E4FA8B9007592EC /* lmem.c */,
+				E25705E70E4FA8B9007592EC /* lmem.h */,
+				E25705E80E4FA8B9007592EC /* loadlib.c */,
+				E25705E90E4FA8B9007592EC /* lobject.c */,
+				E25705EA0E4FA8B9007592EC /* lobject.h */,
+				E25705EB0E4FA8B9007592EC /* lopcodes.c */,
+				E25705EC0E4FA8B9007592EC /* lopcodes.h */,
+				E25705ED0E4FA8B9007592EC /* loslib.c */,
+				E25705EE0E4FA8B9007592EC /* lparser.c */,
+				E25705EF0E4FA8B9007592EC /* lparser.h */,
+				E25705F00E4FA8B9007592EC /* lstate.c */,
+				E25705F10E4FA8B9007592EC /* lstate.h */,
+				E25705F20E4FA8B9007592EC /* lstring.c */,
+				E25705F30E4FA8B9007592EC /* lstring.h */,
+				E25705F40E4FA8B9007592EC /* lstrlib.c */,
+				E25705F50E4FA8B9007592EC /* ltable.c */,
+				E25705F60E4FA8B9007592EC /* ltable.h */,
+				E25705F70E4FA8B9007592EC /* ltablib.c */,
+				E25705F80E4FA8B9007592EC /* ltm.c */,
+				E25705F90E4FA8B9007592EC /* ltm.h */,
+				E25705FB0E4FA8B9007592EC /* lua.h */,
+				E25705FD0E4FA8B9007592EC /* luaconf.h */,
+				E25705FE0E4FA8B9007592EC /* lualib.h */,
+				E25705FF0E4FA8B9007592EC /* lundump.c */,
+				E25706000E4FA8B9007592EC /* lundump.h */,
+				E25706010E4FA8B9007592EC /* lvm.c */,
+				E25706020E4FA8B9007592EC /* lvm.h */,
+				E25706030E4FA8B9007592EC /* lzio.c */,
+				E25706040E4FA8B9007592EC /* lzio.h */,
+				E25706050E4FA8B9007592EC /* print.c */,
+			);
+			path = "lua-5.1.4";
+			sourceTree = "<group>";
+		};
+		E2B8B4BA0E671AAE00E1C9D1 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC61CD0EFDEF7E00AC2207 /* Apple Mouse.xml */,
+				E2BC61C90EFDEF7E00AC2207 /* Apple Keyboard.xml */,
+				E2BC61C70EFDEF7E00AC2207 /* Apple Remote.xml */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		E2BFF8350E8DBBE400086361 /* PolKit */ = {
+			isa = PBXGroup;
+			children = (
+				E2BFF83A0E8DBC0200086361 /* HIDController.h */,
+				E2BFF8380E8DBC0200086361 /* HIDController.m */,
+				E2BFF83B0E8DBC0200086361 /* UsageTables.plist */,
+				E2BFF83C0E8DBC0200086361 /* MidiController.h */,
+				E2BFF83E0E8DBC0200086361 /* MidiController.m */,
+				E2BFF83D0E8DBC0200086361 /* OSCController.h */,
+				E2BFF8390E8DBC0200086361 /* OSCController.m */,
+				E2BFF8580E8DBC4500086361 /* MiniUDPSocket.h */,
+				E2BFF8590E8DBC4500086361 /* MiniUDPSocket.m */,
+				E28AE9EB0E91B73000379541 /* SourceTextView.h */,
+				E28AE9EC0E91B73000379541 /* SourceTextView.m */,
+				E28AE9F80E91B7C000379541 /* SourceTextViewKeywords-Lua.plist */,
+			);
+			path = PolKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* MidiHID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MidiHID" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MidiHID;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MidiHID;
+			productReference = 8D1107320486CEB800E47090 /* MidiHID.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MidiHID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MidiHID */;
+			projectDirPath = "";
+			projectRoot = ../..;
+			targets = (
+				8D1107260486CEB800E47090 /* MidiHID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B8B4E90E671D7900E1C9D1 /* Dot-Green.tiff in Resources */,
+				E2B8B4EA0E671D7900E1C9D1 /* Dot-Orange.tiff in Resources */,
+				E2B8B4EB0E671D7900E1C9D1 /* Dot-Red.tiff in Resources */,
+				E2B8B52E0E671FBF00E1C9D1 /* MainMenu.xib in Resources */,
+				E2B8B52F0E671FBF00E1C9D1 /* Localizable.strings in Resources */,
+				E2B8B5300E671FBF00E1C9D1 /* InfoPlist.strings in Resources */,
+				E2BFF8450E8DBC0200086361 /* UsageTables.plist in Resources */,
+				E28AE9FA0E91B7C000379541 /* SourceTextViewKeywords-Lua.plist in Resources */,
+				E28AEAF60E91CA9D00379541 /* Error.tiff in Resources */,
+				E270D8AD0F7CE81A00396646 /* Icon.icns in Resources */,
+				E29E97490F816111003AACB9 /* ReleaseNotes.rtf in Resources */,
+				E2E8EE100F82AF5000741A6B /* Dot-Gray.tiff in Resources */,
+				E24D3E760F86CC940048853A /* Success.tiff in Resources */,
+				E2CE57700F8BCCCC00081BB0 /* Configuration.plist in Resources */,
+				E20A2D500F8C605E0004D8B8 /* Warning.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25706060E4FA8B9007592EC /* lapi.c in Sources */,
+				E25706070E4FA8B9007592EC /* lauxlib.c in Sources */,
+				E25706080E4FA8B9007592EC /* lbaselib.c in Sources */,
+				E25706090E4FA8B9007592EC /* lcode.c in Sources */,
+				E257060A0E4FA8B9007592EC /* ldblib.c in Sources */,
+				E257060B0E4FA8B9007592EC /* ldebug.c in Sources */,
+				E257060C0E4FA8B9007592EC /* ldo.c in Sources */,
+				E257060D0E4FA8B9007592EC /* ldump.c in Sources */,
+				E257060E0E4FA8B9007592EC /* lfunc.c in Sources */,
+				E257060F0E4FA8B9007592EC /* lgc.c in Sources */,
+				E25706100E4FA8B9007592EC /* linit.c in Sources */,
+				E25706110E4FA8B9007592EC /* liolib.c in Sources */,
+				E25706120E4FA8B9007592EC /* llex.c in Sources */,
+				E25706130E4FA8B9007592EC /* lmathlib.c in Sources */,
+				E25706140E4FA8B9007592EC /* lmem.c in Sources */,
+				E25706150E4FA8B9007592EC /* loadlib.c in Sources */,
+				E25706160E4FA8B9007592EC /* lobject.c in Sources */,
+				E25706170E4FA8B9007592EC /* lopcodes.c in Sources */,
+				E25706180E4FA8B9007592EC /* loslib.c in Sources */,
+				E25706190E4FA8B9007592EC /* lparser.c in Sources */,
+				E257061A0E4FA8B9007592EC /* lstate.c in Sources */,
+				E257061B0E4FA8B9007592EC /* lstring.c in Sources */,
+				E257061C0E4FA8B9007592EC /* lstrlib.c in Sources */,
+				E257061D0E4FA8B9007592EC /* ltable.c in Sources */,
+				E257061E0E4FA8B9007592EC /* ltablib.c in Sources */,
+				E257061F0E4FA8B9007592EC /* ltm.c in Sources */,
+				E25706220E4FA8B9007592EC /* lundump.c in Sources */,
+				E25706230E4FA8B9007592EC /* lvm.c in Sources */,
+				E25706240E4FA8B9007592EC /* lzio.c in Sources */,
+				E25706250E4FA8B9007592EC /* print.c in Sources */,
+				E2BFF8430E8DBC0200086361 /* HIDController.m in Sources */,
+				E2BFF8440E8DBC0200086361 /* OSCController.m in Sources */,
+				E2BFF8460E8DBC0200086361 /* MidiController.m in Sources */,
+				E2BFF85B0E8DBC4500086361 /* MiniUDPSocket.m in Sources */,
+				E28AE9EE0E91B73000379541 /* SourceTextView.m in Sources */,
+				E2CF883A10A05D2F00AAC44E /* BridgeController.m in Sources */,
+				E2CF883B10A05D2F00AAC44E /* AppController.m in Sources */,
+				E2CF883C10A05D2F00AAC44E /* main.m in Sources */,
+				E2CF894B10A0609400AAC44E /* MidiHIDController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E29E97470F816111003AACB9 /* ReleaseNotes.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E29E97480F816111003AACB9 /* English */,
+			);
+			name = ReleaseNotes.rtf;
+			sourceTree = "<group>";
+		};
+		E2B8B5280E671FBF00E1C9D1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B8B5290E671FBF00E1C9D1 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E2B8B52A0E671FBF00E1C9D1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B8B52B0E671FBF00E1C9D1 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E2B8B52C0E671FBF00E1C9D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B8B52D0E671FBF00E1C9D1 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E2CE576E0F8BCCCC00081BB0 /* Configuration.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2CE576F0F8BCCCC00081BB0 /* English */,
+			);
+			name = Configuration.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Resources/Info.plist;
+				PRODUCT_NAME = MidiHID;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Resources/Info.plist;
+				PRODUCT_NAME = MidiHID;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = __DEBUG__;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MidiHID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MidiHID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

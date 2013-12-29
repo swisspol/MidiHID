@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>color-red</key>
+		<real>0.14</real>
+		<key>color-green</key>
+		<real>0.43</real>
+		<key>color-blue</key>
+		<real>0.15</real>
+		<key>keywords</key>
+		<string>
+			function while do end repeat until if then else elseif return break for
+			true false nil
+			number string boolean table thread userdata
+			local
+			and or not
+		</string>
+	</dict>
+	<dict>
+		<key>color-red</key>
+		<real>0.46</real>
+		<key>color-green</key>
+		<real>0.06</real>
+		<key>color-blue</key>
+		<real>0.31</real>
+		<key>keywords</key>
+		<string>
+			patch time arguments mouse setmetadata getmetadata
+			event type subtype modifier clickcount characters keycode LeftMouseDown LeftMouseUp RightMouseDown RightMouseUp MouseMoved LeftMouseDragged RightMouseDragged MouseEntered MouseExited KeyDown KeyUp ScrollWheel TabletPoint TabletProximity OtherMouseDown OtherMouseUp OtherMouseDragged MouseEventSubtype TabletPointEventSubtype TabletProximityEventSubtype AlphaShiftKey ShiftKey ControlKey AlternateKey CommandKey NumericPadKey HelpKey FunctionKey LeftArrowKey RightArrowKey UpArrowKey DownArrowKey PageUpKey PageDownKey HomeKey EndKey EscapeKey TabKey BackSpaceKey DeleteKey F1Key F2Key F3Key F4Key F5Key F6Key F7Key F8Key F9Key F10Key F11Key F12Key F13Key F14Key F15Key
+			structure count
+			width height ratio
+		</string>
+	</dict>
+	<dict>
+		<key>color-red</key>
+		<real>0.33</real>
+		<key>color-green</key>
+		<real>0.26</real>
+		<key>color-blue</key>
+		<real>0.72</real>
+		<key>keywords</key>
+		<string>
+			error print assert
+			getmetatable setmetatable
+			getfenv setfenv
+			next ipairs pairs tonumber tostring
+			type unpack rawequal rawget rawset
+			pcall xpcall
+			collectgarbage gcinfo
+			coroutine create resume status wrap yield
+			string len sub lower upper char rep byte format dump find gfind gsub
+			table concat foreach foreachi getn setn sort insert remove
+			math pi abs sin cos tan asin acos atan atan2 ceil floor mod frexp ldexp sqrt min max log log10 exp deg pow rad random randomseed
+		</string>
+	</dict>
+</array>
+</plist>

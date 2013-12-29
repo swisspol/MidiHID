@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>identifier</key>
+	<string>1452:33346:12:1</string>
+	<key>exclusive</key>
+	<true/>
+	<key>enableMIDI</key>
+	<true/>
+	<key>autoreset</key>
+	<false/>
+	<key>script</key>
+	<string><![CDATA[
+
+function _event(name, value, min, max)
+	log("[" .. name .. "] = " .. value)
+end
+
+toggle = 0;
+function System_Menu(value, min, max)
+	if value > 0 then
+		toggle = (toggle == 0) and 127 or 0
+		midi.controlchange(1, toggle)
+	end
+end
+
+	]]></string>
+</dict>
+</plist>

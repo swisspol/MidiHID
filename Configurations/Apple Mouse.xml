@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>identifier</key>
+	<string>1452:772:1:2</string>
+	<key>exclusive</key>
+	<false/>
+	<key>enableMIDI</key>
+	<true/>
+	<key>autoreset</key>
+	<true/>
+	<key>script</key>
+	<string><![CDATA[
+
+function _connect()
+	log("<CONNECT>")
+end
+
+function _disconnect()
+	log("<DISCONNECT>")
+end
+
+function _event(name, value, min, max)
+	--log("[" .. name .. "] = " .. value .. " (" .. min .. " | " .. max .. ")")
+end
+
+-- Primary button
+function Button_1(value, min, max)
+	log("Button-1 = " .. value)
+	midi.controlchange(3, (value ~= 0) and 127 or 0)
+end
+
+-- Secondary button
+function Button_2(value, min, max)
+	log("Button-2 = " .. value)
+	midi.controlchange(4, (value ~= 0) and 127 or 0)
+end
+
+-- Third button
+function Button_3(value, min, max)
+	log("Button-3 = " .. value)
+	midi.controlchange(5, (value ~= 0) and 127 or 0)
+end
+
+-- Scroll Wheel (Vertical)
+positionY = 0
+function Wheel(value, min, max)
+	if value ~= 0 then
+		positionY = positionY + value
+		if positionY < 0 then
+			positionY = 0
+		elseif positionY > 127 then
+			positionY = 127
+		end
+		log('Scroll Y = ' .. positionY)
+		midi.controlchange(1, positionY)
+	end
+end
+
+-- Scroll Wheel (Horizontal)
+positionX = 0
+function Z(value, min, max)
+	if value ~= 0 then
+		positionX = positionX - value
+		if positionX < 0 then
+			positionX = 0
+		elseif positionX > 127 then
+			positionX = 127
+		end
+		log('Scroll X = ' .. positionX)
+		midi.controlchange(2, positionX)
+	end
+end		
+
+	]]></string>
+</dict>
+</plist>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>enableMIDI</key>
+	<true/>
+	<key>autoreset</key>
+	<false/>
+	<key>script</key>
+	<string><![CDATA[--[[
+For help on MidiHID configurations or to share configurations with other MidiHID users,
+visit http://http://code.google.com/p/midihid/.
+
+The "base", "string", "table" and "math" Lua libraries are available. MidiHID provides
+an extra "midi" library with the following functions:
+	midi.message(message, [data1], [data2])
+	midi.noteon(key, [velocity])
+	midi.noteoff(key, [velocity])
+	midi.controlchange(control, value)
+	midi.pitchwheelchange(value)
+These functions do not return anything and all their arguments are numerical values
+between 0-127 (except for "message" which must be between 0-15).
+Arguments in brackets are optional.
+
+To print a message to the log area, use the log() function.
+]]
+
+function _connect()
+	log("<CONNECT>")
+end
+
+function _event(name, value, min, max)
+	log("[" .. name .. "] = " .. value .. " (" .. min .. " | " .. max .. ")")
+	midi.controlchange(1, (value - min) / (max - min) * 127)
+end
+
+function _disconnect()
+	log("<DISCONNECT>")
+end
+]]></string>
+</dict>
+</plist>

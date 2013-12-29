@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>identifier</key>
+	<string>1452:547:1:6</string>
+	<key>exclusive</key>
+	<false/>
+	<key>enableMIDI</key>
+	<true/>
+	<key>enableOSC</key>
+	<true/>
+	<key>autoreset</key>
+	<false/>
+	<key>script</key>
+	<string><![CDATA[
+
+-- Eject button
+function _00B8(value, min, max)
+	log("Eject-Button = " .. value)
+	midi.controlchange(1, (value ~= 0) and 127 or 0)
+end
+
+-- Function button
+function _0003(value, min, max)
+	log("Function-Button = " .. value)
+	if value ~= 0 then
+		osc.message("/test/float", 1.0)
+		osc.message("/test/string", "bonjour");
+	else
+		osc.message("/test/float", 0.0)
+		osc.message("/test/string", "au revoir!");
+	end
+end
+
+	]]></string>
+</dict>
+</plist>

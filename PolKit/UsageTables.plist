@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!-- 'HID Usage Tables' specification, revision 1.1rc3 -->
+<dict>
+	
+	<!-- Usage Pages -->
+	<key>0</key>
+	<array>
+		<string></string>
+		
+		<string>Generic Desktop</string>
+		<string>Simulation</string>
+		<string>Virtual Reality</string>
+		<string>Sport</string>
+		<string>Game</string>
+		<string>Generic Device</string>
+		<string>Keyboard / Keypad</string>
+		<string>LEDs</string>
+		<string>Button</string>
+		<string>Ordinal</string>
+		<string>Telephony</string>
+		<string>Consumer</string>
+		<string>Digitizer</string>
+		
+		<!-- 0x000E to 0xFFFF not included -->
+	</array>
+	
+	<!-- Generic Desktop Page -->
+	<key>1</key>
+	<array>
+		<string></string>
+		
+		<string>Pointer</string>
+		<string>Mouse</string>
+		<string></string>
+		<string>Joystick</string>
+		<string>GamePad</string>
+		<string>Keyboard</string>
+		<string>Keypad</string>
+		<string>MultiAxisController</string>
+		
+		<!-- 0x09 - 0x2F Reserved -->
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		
+		<string>X</string>
+		<string>Y</string>
+		<string>Z</string>
+		<string>Rx</string>
+		<string>Ry</string>
+		<string>Rz</string>
+		<string>Slider</string>
+		<string>Dial</string>
+		<string>Wheel</string>
+		<string>Hatswitch</string>
+		<string>CountedBuffer</string>
+		<string>ByteCount</string>
+		<string>MotionWakeup</string>
+		<string>Start</string>
+		<string>Select</string>
+		<string></string>
+		<string>Vx</string>
+		<string>Vy</string>
+		<string>Vz</string>
+		<string>Vbrx</string>
+		<string>Vbry</string>
+		<string>Vbrz</string>
+		<string>Vno</string>
+		
+		<!-- 0x47 - 0x7F Reserved -->
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		
+		<string>System Control</string>
+		<string>System Power Down</string>
+		<string>System Sleep</string>
+		<string>System Wake Up</string>
+		<string>System Context Menu</string>
+		<string>System Main Menu</string>
+		<string>System Application Menu</string>
+		<string>System Menu Help</string>
+		<string>System Menu Exit</string>
+		<string>System Menu</string>
+		<string>System Menu Right</string>
+		<string>System Menu Left</string>
+		<string>System Menu Up</string>
+		<string>System Menu Down</string>
+		<string></string>
+		<string></string>
+		<string>DPad Up</string>
+		<string>DPad Down</string>
+		<string>DPad Right</string>
+		<string>DPad Left</string>
+		
+		<!-- 0x0094 to 0xFFFF not included -->
+	</array>
+	
+	<!-- Virtual Reality Page -->
+	<key>3</key>
+	<array>
+		<string></string>
+		
+		<string>Belt</string>
+		<string>BodySuit</string>
+		<string>Flexor</string>
+		<string>Glove</string>
+		<string>HeadTracker</string>
+		<string>HeadMountedDisplay</string>
+		<string>HandTracker</string>
+		<string>Oculometer</string>
+		<string>Vest</string>
+		<string>AnimatronicDevice</string>
+		
+		<!-- 0x0B - 0x1F Reserved -->
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		
+		<string>Stereo Enable</string>
+		<string>Display Enable</string>
+		
+		<!-- 0x0022 to 0xFFFF not included -->
+	</array>
+	
+	<!-- Game Page -->
+	<key>5</key>
+	<array>
+		<string></string>
+		
+		<string>3D Game Controller</string>
+		<string>Pinball Device</string>
+		<string>Gun Device</string>
+		
+		<!-- 0x04 - 0x1F Reserved -->
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		
+		<string>Point of View</string>
+		<string>Turn Right Or Left</string>
+		<string>Pitch Up Or Down</string>
+		<string>Roll Right Or Left</string>
+		<string>Move Right Or Left</string>
+		<string>Move Forward Or Backward</string>
+		<string>Move Up Or Down</string>
+		<string>Lean Right Or Left</string>
+		<string>Lean Forward Or Backward</string>
+		<string>Height Of POV</string>
+		<string>Flipper</string>
+		<string>Secondary Flipper</string>
+		<string>Bump</string>
+		<string>New Game</string>
+		<string>Shoot Ball</string>
+		<string>Player</string>
+		<string>Gun Bolt</string>
+		<string>Gun Clip</string>
+		<string>Gun</string>
+		<string>Gun Single Shot</string>
+		<string>Gun Burst</string>
+		<string>Gun Automatic</string>
+		<string>Gun Safety</string>
+		<string>Gamepad Fire Or Jump</string>
+		<string></string>
+		<string>Gamepad Trigger</string>
+		
+		<!-- 0x003A to 0xFFFF not included -->
+	</array>
+	
+	<!-- Keyboard / Keypad Page -->
+	<key>7</key>
+	<array>
+		<string></string>
+		
+		<string>Error Roll Over</string>
+		<string>POST Fail</string>
+		<string>Error Undefined</string>
+		<string>A</string>
+		<string>B</string>
+		<string>C</string>
+		<string>D</string>
+		<string>E</string>
+		<string>F</string>
+		<string>G</string>
+		<string>H</string>
+		<string>I</string>
+		<string>J</string>
+		<string>K</string>
+		<string>L</string>
+		<string>M</string>
+		<string>N</string>
+		<string>O</string>
+		<string>P</string>
+		<string>Q</string>
+		<string>R</string>
+		<string>S</string>
+		<string>T</string>
+		<string>U</string>
+		<string>V</string>
+		<string>W</string>
+		<string>X</string>
+		<string>Y</string>
+		<string>Z</string>
+		<string>1</string>
+		<string>2</string>
+		<string>3</string>
+		<string>4</string>
+		<string>5</string>
+		<string>6</string>
+		<string>7</string>
+		<string>8</string>
+		<string>9</string>
+		<string>0</string>
+		<string>Return Or Enter</string>
+		<string>Escape</string>
+		<string>Delete Or Backspace</string>
+		<string>Tab</string>
+		<string>Spacebar</string>
+		<string>Hyphen</string>
+		<string>Equal Sign</string>
+		<string>Open Bracket</string>
+		<string>Close Bracket</string>
+		<string>Backslash</string>
+		<string>Non US Pound</string>
+		<string>Semicolon</string>
+		<string>Quote</string>
+		<string>Grave Accent And Tilde</string>
+		<string>Comma</string>
+		<string>Period</string>
+		<string>Slash</string>
+		<string>CapsLock</string>
+		<string>F1</string>
+		<string>F2</string>
+		<string>F3</string>
+		<string>F4</string>
+		<string>F5</string>
+		<string>F6</string>
+		<string>F7</string>
+		<string>F8</string>
+		<string>F9</string>
+		<string>F10</string>
+		<string>F11</string>
+		<string>F12</string>
+		<string>Print Screen</string>
+		<string>Scroll Lock</string>
+		<string>Pause</string>
+		<string>Insert</string>
+		<string>Home</string>
+		<string>Page Up</string>
+		<string>Delete Forward</string>
+		<string>End</string>
+		<string>Page Down</string>
+		<string>Right Arrow</string>
+		<string>Left Arrow</string>
+		<string>Down Arrow</string>
+		<string>Up Arrow</string>
+		
+		<!-- Keypad Specific -->
+		<string>NumLock</string>
+		<string>Slash</string>
+		<string>Asterisk</string>
+		<string>Hyphen</string>
+		<string>Plus</string>
+		<string>Enter</string>
+		<string>1</string>
+		<string>2</string>
+		<string>3</string>
+		<string>4</string>
+		<string>5</string>
+		<string>6</string>
+		<string>7</string>
+		<string>8</string>
+		<string>9</string>
+		<string>0</string>
+		<string>Period</string>
+		
+		<string>Non US Backslash</string>
+		<string>Application</string>
+		<string>Power</string>
+		<string>Equal Sign</string>
+		<string>F13</string>
+		<string>F14</string>
+		<string>F15</string>
+		<string>F16</string>
+		<string>F17</string>
+		<string>F18</string>
+		<string>F19</string>
+		<string>F20</string>
+		<string>F21</string>
+		<string>F22</string>
+		<string>F23</string>
+		<string>F24</string>
+		<string>Execute</string>
+		<string>Help</string>
+		<string>Menu</string>
+		<string>Select</string>
+		<string>Stop</string>
+		<string>Again</string>
+		<string>Undo</string>
+		<string>Cut</string>
+		<string>Copy</string>
+		<string>Paste</string>
+		<string>Find</string>
+		<string>Mute</string>
+		<string>Volume Up</string>
+		<string>Volume Down</string>
+		<string>Locking Caps Lock</string>
+		<string>Locking Num Lock</string>
+		<string>Locking Scroll Lock</string>
+		<string>Comma</string>
+		<string>Equal Sign AS400</string>
+		<string>International 1</string>
+		<string>International 2</string>
+		<string>International 3</string>
+		<string>International 4</string>
+		<string>International 5</string>
+		<string>International 6</string>
+		<string>International 7</string>
+		<string>International 8</string>
+		<string>International 9</string>
+		<string>LANG 1</string>
+		<string>LANG 2</string>
+		<string>LANG 3</string>
+		<string>LANG 4</string>
+		<string>LANG 5</string>
+		<string>LANG 6</string>
+		<string>LANG 7</string>
+		<string>LANG 8</string>
+		<string>LANG 9</string>
+		<string>Alternate Erase</string>
+		<string>System Request Or Attention</string>
+		<string>Cancel</string>
+		<string>Clear</string>
+		<string>Prior</string>
+		<string>Return </string>
+		<string>Separator</string>
+		<string>Out</string>
+		<string>Oper</string>
+		<string>Clear Or Again</string>
+		<string>Clear Selection Or Props</string>
+		<string>Execute Selection</string>
+		
+		<!-- 0xA5-0xDF Reserved -->
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		
+		<string>Left Control</string>
+		<string>Left Shift</string>
+		<string>Left Alt</string>
+		<string>Left GUI</string>
+		<string>Right Control</string>
+		<string>Right Shift</string>
+		<string>Right Alt</string>
+		<string>Right GUI</string>
+	
+		<!-- 0x00E8 to 0xFFFF not included -->
+	</array>
+	
+	<!-- Button Page -->
+	<key>9</key>
+	<array>
+		<string></string>
+		
+		<string>Button 1</string>
+		<string>Button 2</string>
+		<string>Button 3</string>
+		<string>Button 4</string>
+		<string>Button 5</string>
+		<string>Button 6</string>
+		<string>Button 7</string>
+		<string>Button 8</string>
+		<string>Button 9</string>
+		<string>Button 10</string>
+		<string>Button 11</string>
+		<string>Button 12</string>
+		<string>Button 13</string>
+		<string>Button 14</string>
+		<string>Button 15</string>
+		<string>Button 16</string>
+		
+		<!-- 0x0010 to 0xFFFF not included -->
+	</array>
+	
+	<!-- Consumer Page -->
+	<key>12</key>
+	<array>
+		<string></string>
+		
+		<string>Consumer Control</string>
+		<string>Numeric KeyPad</string>
+		<string>Programmable Buttons</string>
+		
+		<!-- 0x03-0x1F Reserved -->
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		
+		<string>Plus 10</string>
+		<string>Plus 100</string>
+		<string>AM Or PM</string>
+		
+		<!-- 0x23-0x2F Reserved -->
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		
+		<string>Power</string>
+		<string>Reset</string>
+		<string>Sleep</string>
+		<string>Sleep After</string>
+		<string>Sleep Mode</string>
+		<string>Illumination</string>
+		<string>Function Buttons</string>
+		
+		<!-- 0x37-0x3F Reserved -->
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		
+		<string>Menu</string>
+		<string>Menu Pick</string>
+		<string>Menu Up</string>
+		<string>Menu Down</string>
+		<string>Menu Left</string>
+		<string>Menu Right</string>
+		<string>Menu Escape</string>
+		<string>Menu Value Increase</string>
+		<string>Menu Value Decrease</string>
+		
+		<!-- 0x0049 to 0xFFFF not included -->
+	</array>
+	
+</dict>
+</plist>
