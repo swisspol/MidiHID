@@ -630,7 +630,7 @@ static NSComparisonResult _SortFunction(DeviceController* controller1, DeviceCon
 	[self toggleExpand:nil];
 	[mainWindow makeKeyAndOrderFront:nil];
 	
-	[copyrightTextField setStringValue:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleGetInfoString"]];
+	[copyrightTextField setStringValue:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"NSHumanReadableCopyright"]];
 	[notesTextView readRTFDFromFile:[[NSBundle mainBundle] pathForResource:@"ReleaseNotes" ofType:@"rtf"]];
 }
 

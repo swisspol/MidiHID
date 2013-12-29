@@ -49,7 +49,6 @@
 		E2B8B4EB0E671D7900E1C9D1 /* Dot-Red.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E2B8B4E50E671D7900E1C9D1 /* Dot-Red.tiff */; };
 		E2B8B52E0E671FBF00E1C9D1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2B8B5280E671FBF00E1C9D1 /* MainMenu.xib */; };
 		E2B8B52F0E671FBF00E1C9D1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2B8B52A0E671FBF00E1C9D1 /* Localizable.strings */; };
-		E2B8B5300E671FBF00E1C9D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2B8B52C0E671FBF00E1C9D1 /* InfoPlist.strings */; };
 		E2BFF8430E8DBC0200086361 /* HIDController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BFF8380E8DBC0200086361 /* HIDController.m */; };
 		E2BFF8440E8DBC0200086361 /* OSCController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BFF8390E8DBC0200086361 /* OSCController.m */; };
 		E2BFF8450E8DBC0200086361 /* UsageTables.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2BFF83B0E8DBC0200086361 /* UsageTables.plist */; };
@@ -136,7 +135,6 @@
 		E2B8B4E50E671D7900E1C9D1 /* Dot-Red.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Dot-Red.tiff"; sourceTree = "<group>"; };
 		E2B8B5290E671FBF00E1C9D1 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E2B8B52B0E671FBF00E1C9D1 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
-		E2B8B52D0E671FBF00E1C9D1 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2BC61C70EFDEF7E00AC2207 /* Apple Remote.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Apple Remote.xml"; sourceTree = "<group>"; };
 		E2BC61C90EFDEF7E00AC2207 /* Apple Keyboard.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Apple Keyboard.xml"; sourceTree = "<group>"; };
 		E2BC61CD0EFDEF7E00AC2207 /* Apple Mouse.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Apple Mouse.xml"; sourceTree = "<group>"; };
@@ -192,7 +190,6 @@
 				E2CE576E0F8BCCCC00081BB0 /* Configuration.plist */,
 				E2B8B5280E671FBF00E1C9D1 /* MainMenu.xib */,
 				E29E97470F816111003AACB9 /* ReleaseNotes.rtf */,
-				E2B8B52C0E671FBF00E1C9D1 /* InfoPlist.strings */,
 				E2B8B52A0E671FBF00E1C9D1 /* Localizable.strings */,
 			);
 			path = Resources;
@@ -391,7 +388,6 @@
 				E2B8B4EB0E671D7900E1C9D1 /* Dot-Red.tiff in Resources */,
 				E2B8B52E0E671FBF00E1C9D1 /* MainMenu.xib in Resources */,
 				E2B8B52F0E671FBF00E1C9D1 /* Localizable.strings in Resources */,
-				E2B8B5300E671FBF00E1C9D1 /* InfoPlist.strings in Resources */,
 				E2BFF8450E8DBC0200086361 /* UsageTables.plist in Resources */,
 				E28AE9FA0E91B7C000379541 /* SourceTextViewKeywords-Lua.plist in Resources */,
 				E28AEAF60E91CA9D00379541 /* Error.tiff in Resources */,
@@ -480,14 +476,6 @@
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		E2B8B52C0E671FBF00E1C9D1 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2B8B52D0E671FBF00E1C9D1 /* English */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		E2CE576E0F8BCCCC00081BB0 /* Configuration.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -502,6 +490,7 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1.0b6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
 				INFOPLIST_FILE = Resources/Info.plist;
@@ -512,6 +501,7 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1.0b6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
 				INFOPLIST_FILE = Resources/Info.plist;
