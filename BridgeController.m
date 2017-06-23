@@ -120,7 +120,7 @@ static int _midiControlChange(lua_State* state)
 static int _midiPitchWheelChange(lua_State* state)
 {
 	BridgeController*		controller = (BridgeController*)_GetUserInfo(state, [BridgeController class]);
-	unsigned char			value = MIDI_CLAMP_VALUE_2(luaL_checkinteger(state, 1));
+	unsigned short			value = MIDI_CLAMP_VALUE_2(luaL_checkinteger(state, 1));
 	
 	[[controller _midiController] sendPitchWheelChange:value];
 	
